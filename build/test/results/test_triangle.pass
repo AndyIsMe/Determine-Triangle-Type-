@@ -1,0 +1,32 @@
+---
+:source:
+  :path: test
+  :file: test_triangle.c
+:successes:
+- :test: test_validity_of_triangle
+  :line: 14
+  :message: ''
+- :test: test_Type_of_triangle_Right_angled
+  :line: 19
+  :message: ''
+- :test: test_Type_of_triangle_Obtuse
+  :line: 25
+  :message: ''
+- :test: test_Type_of_triangle_acute
+  :line: 31
+  :message: ''
+- :test: test_Type_of_triangle_isosceles
+  :line: 37
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout:
+- crct
+- crct2
+- crct3
+- crct4
